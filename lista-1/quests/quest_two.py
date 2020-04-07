@@ -8,5 +8,8 @@ def draw_poly(t,n,sz):
         t.forward(sz)
         t.left( extern_angle)
 
+def main():
+        draw_poly(turtle,8,50)
 
-draw_poly(turtle,13,50)
+if __name__ == "__main__":
+        main()

@@ -15,4 +15,5 @@ def make_matrix():
         print_list(soma)
         soma= [sum(x) for x in zip(soma, numbers)]  
 
-make_matrix()
+if __name__ == "__main__":
+        make_matrix()
