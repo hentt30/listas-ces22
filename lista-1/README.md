@@ -3,7 +3,7 @@
 As questões se encontram no módulo quest com o seguinte padrão de nomencaltura :
 
 ```{python}
-quest\_<número da questão>.py
+quest_<número da questão>.py
 ```
 
 # Testes
