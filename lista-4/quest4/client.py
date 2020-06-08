@@ -7,7 +7,7 @@ class BankGUI:
     def __init__(self, master):
         ## Inicializando  a aplicação e definindo um título para ela
         self.master = master
-        self.master.geometry("700x500")
+        self.master.geometry("1000x500")
         ## Definindo o servidor
         self.server = MyAccount()
         ## Construindo a interface para os comandos
